@@ -77,5 +77,6 @@ public static void AddJwt(this IServiceCollection services, IConfiguration confi
                 }
             };
         });
-    } // Remember adding builder.Services.ConfigureRateLimiting(); and builder.Services.AddAutoMapper(Assembly.GetEntryAssembly()); and app.UseIpRateLimiting(); to Program.cs
+    } 
+    // Remember adding builder.Services.ConfigureRateLimiting(); and builder.Services.AddAutoMapper(Assembly.GetEntryAssembly()); and app.UseIpRateLimiting(); to Program.cs
 }
