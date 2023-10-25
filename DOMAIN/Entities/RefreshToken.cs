@@ -15,3 +15,4 @@ public class RefreshToken : BaseEntity
     public DateTime? Revoked { get; set; }
     public bool IsActive => Revoked == null && !IsExpired;
 }
+
