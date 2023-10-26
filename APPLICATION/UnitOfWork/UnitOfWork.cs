@@ -19,7 +19,7 @@ public class UnitOfWork : IUnitOfWork, IDisposable
     {
         _context = context;
     }
-    public IRolRepository Rol
+    public IRolRepository Roles
     {
         get
         {
@@ -30,7 +30,7 @@ public class UnitOfWork : IUnitOfWork, IDisposable
             return _rols;
         }
     }
-    public IUserRepository User
+    public IUserRepository Users
     {
         get
         {

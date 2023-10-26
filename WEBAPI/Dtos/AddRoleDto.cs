@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace WEBAPI.Dtos;
-public class AddRolDto
+public class AddRoleDto
 {
     [Required]
     public string Username { get; set; }
